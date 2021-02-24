@@ -1,10 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .gallery {
   display: -ms-grid;
   display: grid;
@@ -15,8 +8,6 @@
   -ms-grid-rows: (0.5fr)[8];
       grid-template-rows: repeat(8, 0.5fr);
   grid-gap: 2rem;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   /* background-color:aqua; */
 }
 
@@ -264,122 +255,4 @@
     grid-row-end: 4;
   }
 }
-
-.main-header {
-  display: -ms-grid;
-  display: grid;
-  /* background-color:aqua; */
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  max-height: 800px;
-  grid-column-gap: .5em;
-  grid-row-gap: 1em;
-  -ms-grid-columns: (1fr)[8];
-      grid-template-columns: repeat(8, 1fr);
-  -ms-grid-rows: (3fr)[3];
-      grid-template-rows: repeat(3, 3fr);
-  border-radius: 10px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
-.main-header .item1 {
-  background-color: brown;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 8;
-  grid-column: 1/9;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  grid-row: 1/2;
-}
-
-.main-header .item2 {
-  /** Alternative Syntax **/
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-column: 1 / 3;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2 / 3;
-  background-color: #a8ca10;
-}
-
-.main-header .item3 {
-  /** Alternative Syntax **/
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 6;
-  grid-column: 3/ 9;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2 /  3;
-  background-color: black;
-  color: #fff;
-  justify-items: center;
-}
-
-.main-header .item4 {
-  /** Alternative Syntax **/
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 8;
-  grid-column: 1 /9;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3 /4;
-  background-color: coral;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (2fr)[4];
-      grid-template-columns: repeat(4, 2fr);
-  -ms-grid-rows: (2fr)[1];
-      grid-template-rows: repeat(1, 2fr);
-  border-radius: 10px;
-  text-align: center;
-}
-
-.main-header .item4 li {
-  padding: 1.2rem;
-  list-style-type: none;
-  font-size: 20px;
-}
-
-.main-header .item4 a {
-  font-style: italic;
-  text-decoration: none;
-}
-
-.footer {
-  margin-top: 3rem;
-  margin-bottom: 5rem;
-  height: 150px;
-  border-radius: 10px;
-  background-color: darkorange;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-body {
-  background-image: url(/FE21-CSS3-DAY4-ABDULLA-MARKO/p14.jpg);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* object-fit: cover; */
-  font-family: "Nunito", sans-serif;
-  color: #333;
-  font-weight: 300;
-  line-height: 1.6;
-}
-
-.container {
-  width: 1140px;
-  margin: 2rem auto;
-}
-/*# sourceMappingURL=grid.css.map */
+/*# sourceMappingURL=gallery.css.map */
