@@ -328,10 +328,10 @@
   background-color: coral;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (2fr)[4];
-      grid-template-columns: repeat(4, 2fr);
-  -ms-grid-rows: (2fr)[1];
-      grid-template-rows: repeat(1, 2fr);
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+  -ms-grid-rows: (1fr)[1];
+      grid-template-rows: repeat(1, 1fr);
   border-radius: 10px;
   text-align: center;
 }
